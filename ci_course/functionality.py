@@ -40,4 +40,5 @@ def minimum(*args):
         if isinstance(arg, numbers.Real):
             the_min = min(the_min, arg)
 
+
     return the_min
